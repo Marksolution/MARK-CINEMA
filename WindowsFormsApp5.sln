@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp5", "WindowsFormsApp5\WindowsFormsApp5.csproj", "{CD95F446-34C0-4EB8-8809-B518DCD0CC90}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MARK CINEMA", "MARK CINEMA\MARK CINEMA.vdproj", "{6DE79F6A-A168-4C42-9CF7-5024D5E38E37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD95F446-34C0-4EB8-8809-B518DCD0CC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD95F446-34C0-4EB8-8809-B518DCD0CC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD95F446-34C0-4EB8-8809-B518DCD0CC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD95F446-34C0-4EB8-8809-B518DCD0CC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE79F6A-A168-4C42-9CF7-5024D5E38E37}.Debug|Any CPU.ActiveCfg = Debug
+		{6DE79F6A-A168-4C42-9CF7-5024D5E38E37}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30E03831-FEA0-4AC1-BA4F-F4E58185B669}
+	EndGlobalSection
+EndGlobal
