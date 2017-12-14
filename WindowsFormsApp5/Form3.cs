@@ -12,12 +12,12 @@ namespace WindowsFormsApp5
 {
     public partial class Form4 : Form
     {
-        CheckBox[] l,k,j,h,g,f,e0,d,c,b,a0;
-        string[] lines;
-        public static string name_m;
-        public static int time;
-        public static int num = 0;
-        public static int num0=0;
+        CheckBox[] l,k,j,h,g,f,e0,d,c,b,a0;//ตัวแปรของ CheckBox = l,k,j,h,g,f,e0,d,c,b,a0
+        string[] lines;//ตัวแปร line ในรูปแบบ string
+        public static string name_m;//เป็นเมดตอทที่ส่งค่าข้อมูลข้ามฟอร์มที่อยู่ในไฟล์ nmae_m ไปใช้ได้ทุกฟอร์ม
+        public static int time;//เป็นเมดตอทที่ส่งค่าข้อมูลข้ามฟอร์มที่อยู่ในไฟล์ time ไปใช้ได้ทุกฟอร์ม
+        public static int num = 0;//เป็นเมดตอทที่ส่งค่าข้อมูลข้ามฟอร์มที่อยู่ในไฟล์ num ไปใช้ได้ทุกฟอร์ม
+        public static int num0=0;//เป็นเมดตอทที่ส่งค่าข้อมูลข้ามฟอร์มที่อยู่ในไฟล์ num ไปใช้ได้ทุกฟอร์ม
         public Form4()
         {
             InitializeComponent();
@@ -66,9 +66,9 @@ namespace WindowsFormsApp5
         }
         private void button20_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2();
-            f2.Show();
-            this.Hide();
+            Form2 f2 = new Form2();//เมื่อคลิ๊ก button20 จะโชว์ฟอร์ม 2
+            f2.Show(); //โชว์ฟอร์ม2
+            this.Hide();//ซ่อนไว้
         }
         private void button222_Click(object sender, EventArgs e)
         {
